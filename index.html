@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="calculator_icon.png" type="image/icon">
+    <title>MyCalculatorApp</title>
+</head>
+<body>
+        <div class="form-container">
+            <form action="" method="get">
+                <h1>Simple Calculator</h1>
+                <label for="numberOne">Your Number One:</label>
+                <input type="number" name="numberOne" id="numberOneId">
+                <br><br>
+                <label for="operators">What is your Operator:</label>
+                <input type="text" name="operators" id="operatorsId">
+                <br><br>
+                <label for="numberTwo">Your Number Two:</label>
+                <input type="number" name="numberTwo" id="numberTwoId">
+                <br><br>
+                <button onclick="calculate()">Calculate</button>
+                <br><br>
+                <button onclick="clear()">Clear</button>
+            </form>
+        </div>
+    <script src="script.js"></script>
+</body>
+</html>
